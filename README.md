@@ -1,10 +1,10 @@
 # This repository is no longer maintained
 
-git clone https://gitee.com/onllno/lede-cups.git
+git clone https://github.com/gdck/luci-app-cupsd.git
 
 cd source
 
-echo "src-git cups https://gitee.com/onllno/lede-cups.git" >> feeds.conf.default
+echo "src-git cups https://github.com/gdck/luci-app-cupsd.git" >> feeds.conf.default
 
 ./scripts/feeds update -a
 
